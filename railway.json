@@ -10,6 +10,6 @@
   "deploy": {
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 3,
-    "healthcheckPath": "/_agent-native/ping"
+    "healthcheckPath": "/_agent-native/health"
   }
 }
